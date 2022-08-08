@@ -1,0 +1,684 @@
+* {
+    letter-spacing: 0!important;
+}
+body{
+    margin: 0;
+    min-width: 320px;
+}
+body, html {
+    -webkit-font-smoothing: antialiased;
+    background-color: #f3f3f3;
+    color: #333;
+    direction: ltr;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+}
+a {
+    text-decoration: none;
+}
+div {
+    display: block;
+}
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page_layout {
+    background-color: black;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    ._logo_signin_wrapper {
+        height: 45px;
+    }
+}
+._logo_signin_wrapper {
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 20px;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: background-color .5s;
+    width: 100%;
+    z-index: 10;
+}
+/*._logo_signin_wrapper ._logo_signup .netflix {
+    height: 100%;
+    left: 35px;
+}*/
+.netflix {
+    width: 108px;
+    margin-left: 30px;
+    position: absolute;
+
+}
+@media only screen and (min-width: "540px") and (max-width: "949px") {
+    ._logo_signup {
+        margin: 0 45px;
+    }
+}
+._logo_signup {
+    height: 100%;
+    position: relative;
+}
+._nflogo {
+    line-height: normal;
+}
+._signin.logo {
+    float: right;
+    background-color: red;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    margin: 20px 50px;
+}
+.begin {
+    overflow: hidden;
+    width: 100%;
+}
+._signin {
+    border-radius: 3px;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+._nflogo .netflix {
+    padding-top: 0.5rem;
+}
+
+._story_card {
+    margin: 0 auto;
+}
+@media only screen and (min-width: "1450px"), only screen and (min-width: 550px) and (max-width: 949px), only screen and (950px) and (max-width: 1449px) {
+    ._story_c {
+        padding: 70px 45px;
+    }
+}
+._story_c {
+    position: relative;
+    border-bottom: 8px solid #222;
+    background: transparent;
+    margin-bottom: 0;
+    color: #fff;
+}
+._story_background {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: -90px;
+    right: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+._image_wrapper {
+    height: 741px;
+}
+._tak._tak_3 ._story_background ._image_wrapper {
+    bottom: 0;
+}
+._tak ._image_wrapper {
+    right: 0;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+._tak._tak_3 ._image {
+    transform: none;
+}
+._tak ._image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    border: 0;
+    height: auto;
+}
+._tak._tak_3 ._image_gradient {
+    background: rgba(0, 0, 0, .4);
+    background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0, transparent 60%, rgba(0, 0, 0, .8));
+}
+._tak ._image_gradient {
+    background: rgba(0,0,0,.5);
+    background-image: linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+._tak ._story_text {
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    font-weight: 400;
+}
+@media only screen and (min-width: 550px) and (max_width: 949px) {
+    ._story_subtitle._story_text {
+        font-size: 1.25rem;
+    }
+}
+._story_text {
+    font-size: 1.25rem;
+}
+@media only screen and (min-width: 550px) and (max_width: 949px) {
+    ._tak ._story_title {
+    font-size: 3.125rem;
+    }
+}
+._story_title {
+    font-size: 3.125rem;
+}
+._tak h1 {
+    max-width: 640px;
+    margin: auto;
+}
+._story_subtitle._story_title {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+._story_subtitle {
+    font-size: 1.625rem;
+}
+._story_title {
+    line-height: 1.1;
+}
+h1 {
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+@media screen and (min-width: 550px) and (max_width: 949px) {
+    ._tak ._story_subtitle {
+    font-size: 1.625rem;
+    }
+}
+._tak ._story_subtitle {
+    margin: 1rem auto;
+}
+._story_subtitle {
+    font-weight: 400;
+}
+._tak h2 {
+    max-width: 640px;
+}
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    margin-top: 0em;
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px)
+._form_title {
+    padding: 0 10%;
+}
+._form_title {
+    margin: 0 auto;
+    font-weight: 400;
+    max-width: 450px;
+    padding: 0 10%;
+}
+h3 {
+    font-size: 23px;
+}
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+._email_form {
+    text-align: center;
+}
+ul._structure {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px)
+._email_form ._email_field {
+    margin-bottom: 0;
+}
+_._email_field {
+    margin-bottom: 0;
+}
+ul._structure> li {
+    list-style: none;
+    margin-left: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+._email_form ._email_block {
+    margin: 10px auto;
+}
+._email_block ._input_placement {
+    position: relative;
+}
+._email_block {
+    max-width: 500px;
+}
+@media screen and (min-width: 740px) {
+    ._email_block ._input_placement ._email_textfield {
+        height: 60px;
+    }
+}
+._email_block ._email_textfield {
+    height: 48px;
+    padding: 10px 10px 0;
+    width: 100%;
+}
+._email_textfield {
+    border: 1px solid #8c8c8c;
+    appearance: none;
+    color: black;
+    display: block;
+    font-size: 16px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 44px;
+    padding: 10px 11px;
+    width: 100%;
+}
+input {
+    line-height: normal;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px){
+    ._email_form ._get_started_button {
+        padding: 0;
+        margin-top: 0;
+    }
+}
+._tak._story_text._get_started_button {
+    float: none;
+}
+._btton {
+    min-height: 40px;
+    font-size: 1rem;
+}
+.btton {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    line-height: normal;
+    margin: 0.25em auto;
+    padding: 0 1em;
+    width: auto;
+}
+.btn {
+    min-width: 74px;
+    position: relative;
+    border: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 400;
+    vertical-align: middle;
+}
+._btn {
+    background-color: #e50914;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    color: #fff;
+}
+button {
+    overflow: visible;
+    font: inherit;
+    text-rendering: auto;
+}
+.btton ._get-started {
+    flex: 1 1 auto;
+    padding: 0.35rem 0;
+    text-align: center;
+}
+.center-pix {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    ._animation {
+        padding: 70px 45px;
+    }
+}
+._animation {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    position: relative;
+}
+._animation ._animation_container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    .anime.TV_animation_text {
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    ._animation ._animation_text {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    ._animation_text {
+        margin: 0;
+    }
+}
+._animation ._animation_text {
+    flex: 0 1 auto;
+    height: 100%;
+    z-index: 3;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+    ._animation_text ._animation_subtitle {
+        font-size: 1.25rem;
+    }
+}
+._animation_text ._animation_subtitle {
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px){
+    ._animation_title {
+        font-size: 2.5rem;
+    }
+}
+._animation_title {
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    ._animation ._animation_container {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    ._animation ._TV .animation_container {
+        margin: -10% 0 0;
+    }
+}
+.animation_container {
+    margin: -10% 0 0;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px)
+{
+    ._anime._TV_container {
+        margin-top: 1em;
+        max-width: 600px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    ._TV_container {
+        margin-top: 1em;
+        max-width: 600px;
+        width: 100%;
+    }
+}
+._TV_container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+}
+._animation .animation_container {
+    overflow: hidden;
+    position: relative;
+}
+.animation_image {
+    position: relative;
+    z-index: 2;
+}
+._animation._TV.animation_image {
+    position: relative;
+    z-index: 2;
+}
+img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+._animation ._TV .animation {
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.animation {
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+._animation_video {
+    height: 100%;
+    width: 100%;
+}
+video {
+    vertical-align: baseline;
+    display: inline-block;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    ._animation._download._animation_container._animation_text {
+        padding: 0;
+    }
+}
+._animation_text {
+    padding: 0;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    ._animation._download._animation_container._animation_text {
+        padding: 0 0 0 3rem;
+    }
+}
+._animation_text {
+    flex: 0 1 auto;
+    height: 100%;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    .animation_container {
+        margin: -8% 0 0;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    .animation-2 {
+        padding: 0.35em 0.75em;
+    }
+}
+.animation-2 {
+    align-items: center;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    background: black;
+    box-shadow: 0 0 2em 0 #000;
+    bottom: 8%;
+    left: 50%;
+    display: flex;
+    min-width: 15em;
+    position: absolute;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 15%;
+    z-index: 2;
+}
+.animation_image-2 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 0 1em 0 0;
+}
+.stranger {
+    height: 70px;
+}
+._animation_txt-2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0.3em 0;
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    .text-1 {
+        font-size: 1em;
+    }
+}
+.text-1 {
+    color: #fff;
+    font-weight: 600;
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    .text-2 {
+        font-size: 0.9em;
+    }
+}
+.text-2 {
+    color: #0071eb;
+    font-weight: 400;
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    ._custom_animation-2 {
+        height: 3.75em;
+    }
+}
+._custom_animation-2 {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    content: "";
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+}
+h2 {
+    margin: 0.75em 0 0.25em;
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    #dob {
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+    .animation_txt {
+        font-size: 1.25rem;
+    }
+}
+.animation_txt {
+    font-weight: 400;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+    .faq .faq-ul {
+        margin: 1.5em auto;
+        width: 90%;
+    }
+}
+.faq .faq-ul {
+    max-width: 815px;
+}
+ul {
+    padding: 0;
+}
+.faq .faq-ul .faq-li {
+    list-style-type: none;
+    margin: 0 0 8px;
+}
+.faq .faq-button {
+    border: 0;
+    font-weight: 400;
+    margin-bottom: 1px;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    position: relative;
+    width: 100%;
+}
+.faq .svg-close {
+    transform: translateY(-50%) rotate(-45deg);
+}
+.faq .vector-graphics {
+    fill: #fff;
+    height: 1em;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+}
+.faq .faq-ans .close {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .25s cubic-bezier(.5,0,.1,1);
+}
+.faq .faq-ans {
+    background: #303030;
+    display: block;
+    text-align: left;
+}
+.faq .faq-ans span {
+    display: inline-block;
+    padding: 1.2em;
+}
