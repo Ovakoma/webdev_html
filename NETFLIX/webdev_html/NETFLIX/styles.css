@@ -397,10 +397,8 @@ button {
         padding: 0;
     }
 }
-@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
-    ._animation_text {
-        margin: 0;
-    }
+._animation_text {
+    margin: 0;
 }
 ._animation ._animation_text {
     flex: 0 1 auto;
@@ -461,12 +459,10 @@ h2 {
         width: 100%;
     }
 }
-@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
-    ._TV_container {
-        margin-top: 1em;
-        max-width: 600px;
-        width: 100%;
-    }
+._TV_container {
+    margin-top: 1em;
+    max-width: 600px;
+    width: 100%;
 }
 ._TV_container {
     box-sizing: border-box;
@@ -477,10 +473,6 @@ h2 {
 ._animation .animation_container {
     overflow: hidden;
     position: relative;
-}
-.animation_image {
-    position: relative;
-    z-index: 2;
 }
 ._animation._TV.animation_image {
     position: relative;
@@ -511,6 +503,14 @@ img {
     transform: translate(-50%,-50%);
     width: 100%;
 }
+._animation {
+    height: 100%;
+    width: 100%;
+}
+._TV {
+    height: 100%;
+    width: 100%;
+}
 ._animation_video {
     height: 100%;
     width: 100%;
@@ -518,167 +518,4 @@ img {
 video {
     vertical-align: baseline;
     display: inline-block;
-}
-@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
-    ._animation._download._animation_container._animation_text {
-        padding: 0;
-    }
-}
-._animation_text {
-    padding: 0;
-}
-@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
-    ._animation._download._animation_container._animation_text {
-        padding: 0 0 0 3rem;
-    }
-}
-._animation_text {
-    flex: 0 1 auto;
-    height: 100%;
-    z-index: 3;
-    width: 100%;
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: 400;
-}
-@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
-    .animation_container {
-        margin: -8% 0 0;
-    }
-}
-@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
-    .animation-2 {
-        padding: 0.35em 0.75em;
-    }
-}
-.animation-2 {
-    align-items: center;
-    border: 2px solid hsla(0,0%,100%,.25);
-    border-radius: 0.75em;
-    background: black;
-    box-shadow: 0 0 2em 0 #000;
-    bottom: 8%;
-    left: 50%;
-    display: flex;
-    min-width: 15em;
-    position: absolute;
-    margin: 0 auto;
-    transform: translateX(-50%);
-    width: 60%;
-    height: 15%;
-    z-index: 2;
-}
-.animation_image-2 {
-    flex-grow: 0;
-    flex-shrink: 0;
-    margin: 0 1em 0 0;
-}
-.stranger {
-    height: 70px;
-}
-._animation_txt-2 {
-    flex-grow: 1;
-    flex-shrink: 1;
-    margin: 0.3em 0;
-}
-@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
-    .text-1 {
-        font-size: 1em;
-    }
-}
-.text-1 {
-    color: #fff;
-    font-weight: 600;
-}
-@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
-    .text-2 {
-        font-size: 0.9em;
-    }
-}
-.text-2 {
-    color: #0071eb;
-    font-weight: 400;
-}
-@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
-    ._custom_animation-2 {
-        height: 3.75em;
-    }
-}
-._custom_animation-2 {
-    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
-    background-size: 100%;
-    content: "";
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 0;
-    height: 3em;
-    outline: 2px solid #000;
-    outline-offset: -2px;
-    width: 3em;
-}
-h2 {
-    margin: 0.75em 0 0.25em;
-}
-@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
-    #dob {
-        margin: 0 auto;
-    }
-}
-@media only screen and (min-width: 550px) and (max-width: 949px) {
-    .animation_txt {
-        font-size: 1.25rem;
-    }
-}
-.animation_txt {
-    font-weight: 400;
-}
-@media only screen and (min-width: 550px) and (max-width: 949px) {
-    .faq .faq-ul {
-        margin: 1.5em auto;
-        width: 90%;
-    }
-}
-.faq .faq-ul {
-    max-width: 815px;
-}
-ul {
-    padding: 0;
-}
-.faq .faq-ul .faq-li {
-    list-style-type: none;
-    margin: 0 0 8px;
-}
-.faq .faq-button {
-    border: 0;
-    font-weight: 400;
-    margin-bottom: 1px;
-    padding: 0.8em 2.2em 0.8em 1.2em;
-    position: relative;
-    width: 100%;
-}
-.faq .svg-close {
-    transform: translateY(-50%) rotate(-45deg);
-}
-.faq .vector-graphics {
-    fill: #fff;
-    height: 1em;
-    position: absolute;
-    right: 1em;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1em;
-}
-.faq .faq-ans .close {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height .25s cubic-bezier(.5,0,.1,1);
-}
-.faq .faq-ans {
-    background: #303030;
-    display: block;
-    text-align: left;
-}
-.faq .faq-ans span {
-    display: inline-block;
-    padding: 1.2em;
 }
